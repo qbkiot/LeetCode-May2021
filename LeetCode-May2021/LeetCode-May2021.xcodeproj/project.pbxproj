@@ -15,6 +15,8 @@
 		EF6E48A9264129FE0088F834 /* LeetCode_May2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6E48A8264129FE0088F834 /* LeetCode_May2021UITests.swift */; };
 		EF6E48B826412A8F0088F834 /* 03.05.2021-RunningSumof1dArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6E48B726412A8F0088F834 /* 03.05.2021-RunningSumof1dArray.swift */; };
 		EF6E48BA26412B140088F834 /* RunningSumof1dArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6E48B926412B140088F834 /* RunningSumof1dArrayTests.swift */; };
+		EF6E48BC26412CC30088F834 /* 04.05.2021-Non-decreasingArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6E48BB26412CC30088F834 /* 04.05.2021-Non-decreasingArray .swift */; };
+		EF6E48BF26412CED0088F834 /* NonDecreasingArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6E48BE26412CED0088F834 /* NonDecreasingArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EF6E48AA264129FE0088F834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6E48B726412A8F0088F834 /* 03.05.2021-RunningSumof1dArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03.05.2021-RunningSumof1dArray.swift"; sourceTree = "<group>"; };
 		EF6E48B926412B140088F834 /* RunningSumof1dArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumof1dArrayTests.swift; sourceTree = "<group>"; };
+		EF6E48BB26412CC30088F834 /* 04.05.2021-Non-decreasingArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04.05.2021-Non-decreasingArray .swift"; sourceTree = "<group>"; };
+		EF6E48BE26412CED0088F834 /* NonDecreasingArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDecreasingArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				EF6E489D264129FE0088F834 /* LeetCode_May2021Tests.swift */,
 				EF6E489F264129FE0088F834 /* Info.plist */,
 				EF6E48B926412B140088F834 /* RunningSumof1dArrayTests.swift */,
+				EF6E48BE26412CED0088F834 /* NonDecreasingArrayTests.swift */,
 			);
 			path = "LeetCode-May2021Tests";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				EF6E48B726412A8F0088F834 /* 03.05.2021-RunningSumof1dArray.swift */,
+				EF6E48BB26412CC30088F834 /* 04.05.2021-Non-decreasingArray .swift */,
 			);
 			path = SolutionsMay2021;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				EF6E488E264129FC0088F834 /* ContentView.swift in Sources */,
 				EF6E48B826412A8F0088F834 /* 03.05.2021-RunningSumof1dArray.swift in Sources */,
 				EF6E488C264129FC0088F834 /* LeetCode_May2021App.swift in Sources */,
+				EF6E48BC26412CC30088F834 /* 04.05.2021-Non-decreasingArray .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E48BF26412CED0088F834 /* NonDecreasingArrayTests.swift in Sources */,
 				EF6E48BA26412B140088F834 /* RunningSumof1dArrayTests.swift in Sources */,
 				EF6E489E264129FE0088F834 /* LeetCode_May2021Tests.swift in Sources */,
 			);
